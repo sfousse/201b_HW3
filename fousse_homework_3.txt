@@ -3,6 +3,7 @@
 #install edge R
 cd
  git clone https://github.com/ctb/2017-ucdavis-igg201b.git
+ git clone https://github.com/sfousse/201b_HW3.git
 
  sudo Rscript --no-save ~/2017-ucdavis-igg201b/lab7/install-edgeR.R
 
@@ -59,7 +60,7 @@ curl -L -O https://github.com/ngs-docs/2016-aug-nonmodel-rnaseq/raw/master/files
 
 ##10 R script was changed alter file names and labels (instead of ABC use WT rep #) also alter the group to be the right number of samples (for me it is 6)
 
-Rscript --no-save ~/2017-ucdavis-igg201b/lab8/yeast.salmon.R
+Rscript --no-save ~/201b_HW3/yeast.salmon.script.final.R
 
 #Conclusion
 #Adding an additional biological replicate of mutants and wild types resulted in 3137 differential expressed genes compared to the original 4032 genes that were differentially expressed. The number of genes likely decreased since there was a batch effect between the two biological replicates. Therefore, only the genes that were differential expressed in both biological replicates were significant.
